@@ -1,6 +1,6 @@
 ---
 - name: "Provisionar HAProxy - Workshop Red Hat Academy"
-  hosts: haproxy
+  hosts: vinicius-loadbalancer
   become: true
   gather_facts: true
   roles:
